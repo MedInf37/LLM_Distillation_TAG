@@ -1,0 +1,10 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_noisy_products/output_dir_train_robust_lm_bert_noisy_products
+model_name: bert-base-uncased
+dataset_name: ogbn-products
+path_to_pretrained_classifier: /home/yourfirstname.yourlastname/experiment/classifier_with_standard_bert_products/model_checkpoints/classifier_with_standard_bert_products.pth
+dropout_rate: 0.1
+learning_rate: 4.986838925488867e-05
+noisy: True
+save_model_small: true
+max_epoch: 2
+custom_name: robust_bert-base-uncased_for_noisy_ogbn-products_max_epoch_2

@@ -1,0 +1,2 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_train_just_mlp_products
+different_embedding: ./saved_embeddings/bert.npy

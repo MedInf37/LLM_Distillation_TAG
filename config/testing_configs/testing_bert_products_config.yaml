@@ -1,0 +1,8 @@
+absolute_path: ./testing_results/testing_bert_products
+
+model_name: bert-base-uncased
+dataset_name: ogbn-products
+only_title: false
+noisy: false
+custom_name: trained_bert_products_testing_performance
+path_to_model: /Users/yourfirstnameyourlastname/Desktop/tune_hyperparameters_bert_products/model_checkpoints_test/lr_4.986838925488867e-05

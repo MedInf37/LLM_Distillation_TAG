@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_save_standard/output_dir_save_standard_bert_only_title_embedding
+use_standard: true
+only_title: true
+use_lightning_checkpoint: false
+lm_name: bert-base-uncased
+device: cuda
+path_to_save_file: standard_bert_only_title_embedding.npy
+full_save_file_path: /home/yourfirstname.yourlastname/experiment/saved_standard_embeddings

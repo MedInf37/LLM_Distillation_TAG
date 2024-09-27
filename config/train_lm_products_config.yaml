@@ -1,0 +1,9 @@
+model_name: bert-base-uncased
+dataset_name: ogbn-products
+# path_to_pretrained_classifier: './saved/classifier_with_standard_bert.pth'
+dropout_rate: 0.1
+learning_rate: 0.00005
+short_train: False
+save_model: False
+max_epoch: 2
+custom_name: 'testing_if_products_works'

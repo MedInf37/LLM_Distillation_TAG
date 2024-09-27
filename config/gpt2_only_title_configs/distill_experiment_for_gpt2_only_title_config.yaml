@@ -1,0 +1,7 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_only_title/output_dir_gpt2_only_title_experiment
+model_name: gpt2
+dataset_name: ogbn-arxiv
+only_title: True
+path_to_teacher_embedding: /Users/yourfirstnameyourlastname/Desktop/gpt2_only_title/output_dir_save_gpt2_only_title_embedding/gpt2_only_title_embedding.npy
+min_layers: 1
+max_layers: 9

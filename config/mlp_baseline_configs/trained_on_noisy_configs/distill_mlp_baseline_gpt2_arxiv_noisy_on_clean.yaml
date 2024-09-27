@@ -1,0 +1,12 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/trained_on_noisy/on_clean/output_dir_mlp_baseline_gpt2_arxiv_noisy_on_clean
+
+dataset_name: ogbn-arxiv
+
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_arxiv/performance_on_clean_text/output_dir_save_gpt2_noisy_arxiv_embedding/gpt2_noisy_clean_arxiv_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_arxiv/performance_on_clean_text/output_dir_distill_embedding_gpt2_noisy_arxiv
+
+batch_size: 16
+learning_rate: 1.2452967354253948e-05
+max_epoch: 3
+save_model_small: false
+path_to_pretrained_classifier: /home/yourfirstname.yourlastname/experiment/classifier_with_standard/classifier_with_standard_gpt2_arxiv/model_checkpoints/classifier_with_standard_gpt2_arxiv.pth

@@ -1,0 +1,12 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/output_dir_mlp_baseline_distilbert_arxiv
+
+dataset_name: ogbn-arxiv
+
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/distilbert_distillation/output_dir_save_better_distilbert_embedding/better_distill_bert_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/distilbert_distillation/output_dir_better_distilbert_distill
+
+batch_size: 16
+learning_rate: 1.2452967354253948e-05
+max_epoch: 2
+save_model_small: false
+path_to_pretrained_classifier: './saved/classifier_with_standard_bert.pth'

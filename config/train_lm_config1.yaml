@@ -1,0 +1,6 @@
+path_to_pretrained_classifier: './saved/classifier_with_standard_bert.pth'
+dropout_rate: 0.06931703566828175
+learning_rate: 2.0372794815852712e-05
+short_train: False
+save_model: True
+max_epoch: 1

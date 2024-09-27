@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_products/output_dir_gpt2_noisy_products_experiment
+model_name: gpt2
+dataset_name: ogbn-products
+only_title: False
+noisy: True
+path_to_teacher_embedding: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_products/output_dir_save_gpt2_noisy_products_embedding/gpt2_noisy_products_embedding.npy
+min_layers: 1
+max_layers: 9

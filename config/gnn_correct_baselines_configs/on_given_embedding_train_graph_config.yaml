@@ -1,0 +1,24 @@
+absolute_path: /Users/yourfirstnameyourlastname/Desktop/correct_gnn/performance_on_given_embedding_arxiv
+
+dataset_name: ogbn-arxiv
+
+graph_model:
+  hidden_channels: 512
+  num_layers: 2
+  num_heads: 8
+  dropout: 0.31060750471824605
+  input_dropout: 0.3
+  edge_dropout: 0.4
+  input_norm: false
+  different_embedding: ~
+  learning_rate: 0.00016470657127605308
+  weight_decay: 0.0002216225640726081
+  trial_number: 666
+  batch_size: 256
+  test: true
+  label_smoothing: 0.010094459420295274
+  number_of_sampled_neighbors: 463
+  only_labels: false
+  custom_logger_name: correct_graph_model_on_fine-tuned_bert
+  testing: true
+  max_epoch: 60

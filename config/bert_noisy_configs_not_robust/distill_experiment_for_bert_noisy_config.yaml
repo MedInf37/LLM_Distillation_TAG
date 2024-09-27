@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_noisy/output_dir_bert_noisy_experiment
+model_name: bert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: True
+path_to_teacher_embedding: /home/yourfirstname.yourlastname/experiment/bert_noisy/output_dir_save_bert_noisy_embedding/bert_noisy_embedding.npy
+min_layers: 1
+max_layers: 9

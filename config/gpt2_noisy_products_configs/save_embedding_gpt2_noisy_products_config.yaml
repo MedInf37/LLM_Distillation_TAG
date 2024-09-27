@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_products/output_dir_save_gpt2_noisy_products_embedding
+use_lightning_checkpoint: false
+lm_name: gpt2
+dataset_name: ogbn-products
+only_title: False
+noisy: True
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_products/output_dir_train_robust_lm_gpt2_noisy_products/model_checkpoints/robust_gpt2_for_noisy_ogbn-products_max_epoch_2
+path_to_save_file: gpt2_noisy_products_embedding.npy

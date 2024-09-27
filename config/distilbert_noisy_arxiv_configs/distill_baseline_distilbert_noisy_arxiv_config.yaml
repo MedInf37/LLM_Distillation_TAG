@@ -1,0 +1,22 @@
+absolute_path: ./distilbert_noisy_arxiv/output_dir_baseline_distilbert_noisy_arxiv
+path_to_original_embedding: ./distilbert_noisy_arxiv/output_dir_save_distilbert_noisy_arxiv_embedding/distilbert_noisy_arxiv_embedding.npy
+path_to_embeddings: ./distilbert_noisy_arxiv/output_dir_distill_embedding_distilbert_noisy_arxiv
+
+dataset_name: ogbn-arxiv
+
+graph_model:
+    hidden_channels: 256
+    num_layers: 1
+    num_heads: 8
+    dropout: 0.33
+    edge_dropout: 0.48
+    input_dropout: 0.35
+    input_norm: False
+    different_embedding: None
+    learning_rate: 0.00152
+    weight_decay: 0.00055
+    trial_number: 9999999
+    batch_size: 256
+    test: true
+    label_smoothing: 0.01
+    number_of_sampled_neighbors: 50

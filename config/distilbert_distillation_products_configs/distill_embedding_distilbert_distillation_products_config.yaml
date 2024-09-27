@@ -1,0 +1,4 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/distilbert_distillation_products/output_dir_distill_embedding_distilbert_distillation_products
+file_path: /home/yourfirstname.yourlastname/experiment/distilbert_distillation_products/output_dir_distilbert_distillation_products_experiment/model_checkpoints_test
+model_name: distilbert-base-uncased
+dataset_name: ogbn-products

@@ -1,0 +1,6 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/save_noisy_standard_embeddings/
+lm_name: distilbert-base-uncased
+use_standard: true
+dataset_name: ogbn-products
+noisy: true
+path_to_save_file: distilbert_products_noisy_standard_embedding.npy

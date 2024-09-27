@@ -1,0 +1,25 @@
+absolute_path: /Users/yourfirstnameyourlastname/Desktop/correct_gnn/on_standard_embedding/standard_gpt2_arxiv_only_title_baseline
+
+path_to_original_embedding: /Users/yourfirstnameyourlastname/Desktop/output_dir_save_standard/output_dir_save_standard/output_dir_save_standard_gpt2_only_title_embedding/standard_gpt2_only_title_embedding.npy
+path_to_embeddings: ~
+
+dataset_name: ogbn-arxiv
+testing: true
+max_epoch: 10
+
+graph_model:
+  hidden_channels: 256
+  num_layers: 2
+  num_heads: 8
+  dropout: 0.3344790046101337
+  input_dropout: 0.35333121228194914
+  edge_dropout: 0.4773113353286157
+  input_norm: false
+  learning_rate: 0.0015225371716790783
+  weight_decay: 0.0005508354024357066
+  trial_number: 666
+  batch_size: 256
+  test: true
+  label_smoothing: 0.010094459420295274 
+  number_of_sampled_neighbors: 463
+  only_labels: false

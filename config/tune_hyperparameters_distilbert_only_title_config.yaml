@@ -1,0 +1,23 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/hyperparameter_tuning_distilbert
+objective: 'objective1'
+study_name: 'ditilbert_study'
+num_trials: 10
+model_name: distilbert-base-uncased
+
+only_title: true
+
+hyperparameters:
+  path_to_pretrained_classifier:
+    type: 'fixed'
+    value: './saved/classifier_with_standard_bert.pth'
+  dropout_rate:
+    type: 'fixed'
+    value: 0.1
+  learning_rate:
+    type: 'float'
+    low: 1e-7
+    high: 1e-2
+    log: true
+  max_epochs:
+    type: 'fixed'
+    value: 1

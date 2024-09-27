@@ -1,0 +1,12 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/output_dir_mlp_baseline_
+
+dataset_name:
+
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/
+
+batch_size:
+learning_rate:
+max_epoch:
+save_model_small:
+path_to_pretrained_classifier:

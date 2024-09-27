@@ -1,0 +1,23 @@
+absolute_path: /Users/yourfirstnameyourlastname/Desktop/correct_gnn/performance_on_given_embedding_products
+
+dataset_name: ogbn-products
+
+graph_model:
+  hidden_channels: 128
+  num_layers: 1
+  num_heads: 8
+  dropout: 0.30139694853069415
+  input_dropout: 0.3
+  edge_dropout: 0.4
+  input_norm: false
+  different_embedding: ~
+  learning_rate: 0.0015125890884891424
+  weight_decay: 0.0004214099524159014
+  trial_number: 666
+  batch_size: 32
+  test: true
+  label_smoothing: 0.010094459420295274
+  number_of_sampled_neighbors: 463
+  only_labels: false
+  custom_logger_name: correct_graph_model_on_fine-tuned_bert
+  testing: true

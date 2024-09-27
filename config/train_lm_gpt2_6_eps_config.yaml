@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_6_eps_test_gpt2
+model_name: gpt2
+dropout_rate: 0.1
+learning_rate: 0.00003
+short_train: False
+save_model: False
+max_epoch: 6
+custom_name: '6_eps_test_gpt2'
