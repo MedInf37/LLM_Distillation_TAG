@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/distilbert_noisy_products/output_dir_distilbert_noisy_products_experiment
+model_name: distilbert-base-uncased
+dataset_name: ogbn-products
+only_title: False
+noisy: True
+path_to_teacher_embedding: /home/yourfirstname.yourlastname/experiment/distilbert_noisy_products/output_dir_save_distilbert_noisy_products_embedding/distilbert_noisy_products_embedding.npy
+min_layers: 1
+max_layers: 5

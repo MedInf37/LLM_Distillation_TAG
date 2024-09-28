@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/classifier_with_standard_bert_products
+
+dataset_name: ogbn-products
+different_embedding: /home/yourfirstname.yourlastname/experiment/output_dir_save_standard/output_dir_save_standard_bert_products_embedding/standard_bert_products_embedding.npy
+batch_size: 16
+learning_rate: 0.0001807645466268188
+max_epoch: 30
+custom_name: classifier_with_standard_bert_products
+save_model_small: True

@@ -1,0 +1,10 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_test_performance_mlp_products_bert
+
+dataset_name: ogbn-products
+different_embedding: None
+batch_size: 16
+learning_rate: 0.001
+max_epoch: 30
+custom_name: classifier_with_standard_bert_products.pth
+save_model_small: True
+path_to_pretrained_classifier: 

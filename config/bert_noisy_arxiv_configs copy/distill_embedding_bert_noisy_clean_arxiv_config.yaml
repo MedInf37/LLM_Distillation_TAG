@@ -1,0 +1,6 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_noisy_arxiv/performance_on_clean_text/output_dir_distill_embedding_bert_noisy_arxiv
+file_path: /home/yourfirstname.yourlastname/experiment/bert_noisy_arxiv/output_dir_bert_noisy_arxiv_experiment/model_checkpoints_test
+model_name: bert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: False

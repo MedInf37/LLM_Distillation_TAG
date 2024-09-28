@@ -1,0 +1,22 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/testing_results/output_dir_baseline_bert_distillation_products
+path_to_original_embedding: /Users/yourfirstnameyourlastname/Desktop/bert_distillation_products_incomplete/output_dir_save_bert_distillation_products_embedding/bert_distillation_products_embedding.npy
+path_to_embeddings: /Users/yourfirstnameyourlastname/Desktop/bert_distillation_products_incomplete/output_dir_distill_embedding_bert_products
+
+dataset_name: ogbn-products
+
+graph_model:
+    hidden_channels: 256
+    num_layers: 2
+    num_heads: 8
+    dropout: 0.33
+    edge_dropout: 0.48
+    input_dropout: 0.35
+    input_norm: False
+    different_embedding: None
+    learning_rate: 0.00152
+    weight_decay: 0.00055
+    trial_number: 9999999
+    batch_size: 256
+    test: true
+    label_smoothing: 0.01
+    number_of_sampled_neighbors: 26

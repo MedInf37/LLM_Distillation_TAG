@@ -1,0 +1,10 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_noisy_arxiv/output_dir_train_robust_lm_gpt2_noisy_arxiv
+model_name: gpt2
+dataset_name: ogbn-arxiv
+path_to_pretrained_classifier: ./saved/classifier_with_standard_bert.pth
+dropout_rate: 0.1
+learning_rate: 4.2774595593269535e-05
+noisy: True
+save_model_small: true
+max_epoch: 2
+custom_name: robust_gpt2_for_noisy_ogbn-arxiv_max_epoch_2

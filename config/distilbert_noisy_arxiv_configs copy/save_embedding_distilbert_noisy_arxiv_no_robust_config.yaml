@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/no_robust_arxiv/output_dir_save_distilbert_noisy_arxiv_embedding_no_robust
+use_lightning_checkpoint: false
+lm_name: distilbert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: True
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/distilbert_distillation/hyperparameter_tuning_distilbert/model_checkpoints/lr_1.2755255563146731e-05
+path_to_save_file: distilbert_noisy_no_robust_arxiv_embedding.npy

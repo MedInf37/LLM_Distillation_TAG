@@ -1,0 +1,8 @@
+# device: cuda
+# path_to_model: /home/yourfirstname.yourlastname/experiment/output_dir_tune/model_checkpoints_test/lr_1.2452967354253948e-05
+# path_to_save_file: /home/yourfirstname.yourlastname/experiment/output_dir/best_lm_lr_1.2452967354253948e-05.npy
+use_lightning_checkpoint: true
+lm_name: distilbert-base-uncased
+device: mps
+path_to_model: /Users/yourfirstnameyourlastname/Desktop/output_dir_distill_bert/model_checkpoints/best_lm_distill_bert_fine_tuning.ckpt
+path_to_save_file: ./my_test_save_embedding/better_distill_bert_embedding.npy

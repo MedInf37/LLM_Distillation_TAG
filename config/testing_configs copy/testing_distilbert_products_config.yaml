@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/testing_results/testing_distilbert_products
+
+model_name: distilbert-base-uncased
+dataset_name: ogbn-products
+only_title: false
+noisy: false
+custom_name: trained_distilbert_products_testing_performance
+path_to_model: /home/yourfirstname.yourlastname/experiment/distilbert_distillation_products/tune_hyperparameters_distilbert_products/model_checkpoints/lr_1.3476469778946654e-05

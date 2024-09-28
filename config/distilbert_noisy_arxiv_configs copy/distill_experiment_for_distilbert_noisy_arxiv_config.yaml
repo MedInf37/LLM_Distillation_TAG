@@ -1,0 +1,8 @@
+absolute_path: ./distilbert_noisy_arxiv/output_dir_distilbert_noisy_arxiv_experiment
+model_name: distilbert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: True
+path_to_teacher_embedding: ./distilbert_noisy_arxiv/output_dir_save_distilbert_noisy_arxiv_embedding/distilbert_noisy_arxiv_embedding.npy
+min_layers: 1
+max_layers: 5

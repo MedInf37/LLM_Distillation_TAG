@@ -1,0 +1,7 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/distilbert_distillation_products/output_dir_save_distilbert_distillation_products_embedding
+use_lightning_checkpoint: false
+lm_name: distilbert-base-uncased
+dataset_name: ogbn-products
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/distilbert_distillation_products/tune_hyperparameters_distilbert_products/model_checkpoints/lr_1.3476469778946654e-05
+path_to_save_file: distilbert_distillation_products_embedding.npy

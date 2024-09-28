@@ -1,0 +1,7 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_save_standard/output_dir_save_standard_distilbert_embedding
+use_standard: true
+use_lightning_checkpoint: false
+lm_name: distilbert-base-uncased
+device: cuda
+path_to_save_file: standard_distilbert_embedding.npy
+full_save_file_path: /home/yourfirstname.yourlastname/experiment/saved_standard_embeddings

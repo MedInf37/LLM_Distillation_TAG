@@ -1,0 +1,5 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/distilbert_only_title/output_dir_distill_embedding_distilbert_only_title
+file_path: /home/yourfirstname.yourlastname/experiment/distilbert_only_title/output_dir_distilbert_only_title_experiment/model_checkpoints_test
+model_name: distilbert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: True

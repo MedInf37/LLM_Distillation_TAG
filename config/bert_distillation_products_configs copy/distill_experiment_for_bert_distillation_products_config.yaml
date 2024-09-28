@@ -1,0 +1,6 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_distillation_products/output_dir_bert_distillation_products_experiment
+model_name: bert-base-uncased
+dataset_name: ogbn-products
+path_to_teacher_embedding: /Users/yourfirstnameyourlastname/Desktop/bert_distillation_products_incomplete/output_dir_save_bert_distillation_products_embedding/bert_distillation_products_embedding.npy
+min_layers: 1
+max_layers: 9

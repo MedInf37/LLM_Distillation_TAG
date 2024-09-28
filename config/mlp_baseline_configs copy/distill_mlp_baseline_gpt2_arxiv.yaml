@@ -1,0 +1,12 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/output_dir_mlp_baseline_gpt2_arxiv
+
+dataset_name: ogbn-arxiv
+
+path_to_original_embedding: /Users/yourfirstnameyourlastname/Desktop/gpt2_og_embedding_bert_distillation/output_dir_save_gpt2_embedding/better_gpt2_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/gpt2_distillation/output_dir_gpt2_distill
+
+batch_size: 16
+learning_rate: 1.2452967354253948e-05
+max_epoch: 5
+save_model_small: false
+path_to_pretrained_classifier: /home/yourfirstname.yourlastname/experiment/classifier_with_standard/classifier_with_standard_gpt2_arxiv/model_checkpoints/classifier_with_standard_gpt2_arxiv.pth

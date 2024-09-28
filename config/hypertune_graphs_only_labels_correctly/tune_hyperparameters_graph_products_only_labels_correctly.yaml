@@ -1,0 +1,49 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/graph_only_labels_correctly/tuning_graph_products_only_labels
+objective: 'objective2'
+study_name: 'graph_tune_only_labels_of_neighbors_products'
+num_trials: 50
+only_labels: true
+
+dataset_name: ogbn-products
+
+hyperparameters:
+  num_layers: 
+    type: 'fixed'
+    value: 1
+  hidden_channels:
+    type: 'categorical'
+    choices: [16, 32, 64]
+  learning_rate:
+    type: 'float'
+    low: 1e-5
+    high: 5e-3
+    log: true
+  weight_decay:
+    type: 'loguniform'
+    low: 1e-5
+    high: 1e-2
+  num_heads:
+    type: 'categorical'
+    choices: [2, 4, 8]
+  batch_size:
+    type: 'fixed'
+    value: 1
+  dropout:
+    type: 'loguniform'
+    low: 0.3
+    high: 0.6
+  edge_dropout:
+    type: 'loguniform'
+    low: 0.3
+    high: 0.6
+  input_dropout:
+    type: 'loguniform'
+    low: 0.3
+    high: 0.6
+  label_smoothing:
+    type: 'loguniform'
+    low: 0.01
+    high: 0.05
+  input_norm:
+    type: 'fixed'
+    value: false

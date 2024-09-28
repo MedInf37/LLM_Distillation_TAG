@@ -1,0 +1,8 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_only_title/output_dir_save_gpt2_only_title_embedding
+use_lightning_checkpoint: false
+lm_name: gpt2
+dataset_name: ogbn-arxiv
+only_title: True
+device: cuda
+path_to_model: /Users/yourfirstnameyourlastname/Desktop/gpt2_only_title/tune_hyperparameters_gpt2_only_title/model_checkpoints/lr_0.0007849122638331323
+path_to_save_file: gpt2_only_title_embedding.npy

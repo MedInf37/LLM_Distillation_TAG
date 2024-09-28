@@ -1,0 +1,4 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/repeat_bert_distillation_for_all_layers/output_dir_repeat_bert_distillation_for_all_layers_experiment
+path_to_teacher_embedding: /home/yourfirstname.yourlastname/experiment/saved_embeddings_dir/best_model_lr_1.2452967354253948e-05.npy
+min_layers: 1
+max_layers: 9

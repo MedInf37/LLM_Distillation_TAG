@@ -1,0 +1,12 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/trained_on_noisy/output_dir_mlp_baseline_bert_products_noisy_on_clean
+
+dataset_name: ogbn-products
+
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/bert_noisy_products/performance_on_clean_text/output_dir_save_bert_noisy_products_clean_embedding/bert_noisy_products_clean_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/bert_noisy_products/performance_on_clean_text/output_dir_distill_embedding_bert_noisy_products_clean
+
+batch_size: 16
+learning_rate: 4.986838925488867e-05
+max_epoch: 2
+save_model_small: false
+path_to_pretrained_classifier: /home/yourfirstname.yourlastname/experiment/classifier_with_standard_bert_products/model_checkpoints/classifier_with_standard_bert_products.pth

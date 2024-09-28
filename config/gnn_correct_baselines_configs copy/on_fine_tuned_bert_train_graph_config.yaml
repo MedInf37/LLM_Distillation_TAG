@@ -1,0 +1,23 @@
+absolute_path: /Users/yourfirstnameyourlastname/Desktop/correct_gnn/performance_on_fine_tuned_bert
+
+dataset_name: ogbn-arxiv
+
+graph_model:
+  hidden_channels: 256
+  num_layers: 2
+  num_heads: 8
+  dropout: 0.3344790046101337
+  input_dropout: 0.35333121228194914
+  edge_dropout: 0.4773113353286157
+  input_norm: false
+  different_embedding: /Users/yourfirstnameyourlastname/Desktop/saved_embeddings_dir/best_model_lr_1.2452967354253948e-05.npy
+  learning_rate: 0.0015225371716790783
+  weight_decay: 0.0005508354024357066
+  trial_number: 666
+  batch_size: 256
+  test: true
+  label_smoothing: 0.010094459420295274
+  number_of_sampled_neighbors: 463
+  only_labels: false
+  custom_logger_name: correct_graph_model_on_fine-tuned_bert
+  testing: true

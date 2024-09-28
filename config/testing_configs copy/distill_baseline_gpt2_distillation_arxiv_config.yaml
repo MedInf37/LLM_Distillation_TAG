@@ -1,0 +1,22 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/testing_results/output_dir_baseline_gpt2_distillation_arxiv
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/gpt2_og_embedding_bert_distillation/output_dir_save_gpt2_embedding/better_gpt2_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/gpt2_distillation/output_dir_gpt2_distill
+
+testing: true
+
+graph_model:
+    hidden_channels: 256
+    num_layers: 2
+    num_heads: 8
+    dropout: 0.33
+    edge_dropout: 0.48
+    input_dropout: 0.35
+    input_norm: False
+    different_embedding: None
+    learning_rate: 0.00152
+    weight_decay: 0.00055
+    trial_number: 9999999
+    batch_size: 256
+    test: true
+    label_smoothing: 0.01
+    number_of_sampled_neighbors: 463

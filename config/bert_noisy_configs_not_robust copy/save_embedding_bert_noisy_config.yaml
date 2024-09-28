@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_noisy/output_dir_save_bert_noisy_embedding
+use_lightning_checkpoint: false
+lm_name: bert-base-uncased
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: True
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/bert_distillation/bert_distillation_4_to_9/output_dir_tune/model_checkpoints_test/lr_1.2452967354253948e-05
+path_to_save_file: bert_noisy_embedding.npy

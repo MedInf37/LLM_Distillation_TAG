@@ -1,0 +1,6 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_distillation/output_dir_save_gpt2_embedding
+use_lightning_checkpoint: false
+lm_name: gpt2
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/gpt2_og_embedding_bert_distillation/hyperparameter_tuning_gpt2/model_checkpoints/lr_4.2774595593269535e-05
+path_to_save_file: better_gpt2_embedding.npy

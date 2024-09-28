@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/no_robust_arxiv/output_dir_save_gpt2_noisy_arxiv_embedding_no_robust
+use_lightning_checkpoint: false
+lm_name: gpt2
+dataset_name: ogbn-arxiv
+only_title: False
+noisy: True
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/gpt2_og_embedding_bert_distillation/hyperparameter_tuning_gpt2/model_checkpoints/lr_4.2774595593269535e-05
+path_to_save_file: gpt2_noisy_no_robust_arxiv_embedding.npy

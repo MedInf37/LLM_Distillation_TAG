@@ -1,0 +1,25 @@
+absolute_path: /Users/yourfirstnameyourlastname/Desktop/correct_gnn/on_standard_embedding/standard_gpt2_products_baseline
+
+path_to_original_embedding: /Users/yourfirstnameyourlastname/Desktop/output_dir_save_standard/output_dir_save_standard/output_dir_save_standard_gpt2_products_embedding/standard_gpt2_products_embedding.npy
+path_to_embeddings: ~
+
+dataset_name: ogbn-products
+testing: true
+max_epoch: 1
+
+graph_model:
+  hidden_channels: 256
+  num_layers: 1
+  num_heads: 8
+  dropout: 0.33
+  input_dropout: 0.35
+  edge_dropout: 0.48
+  input_norm: False
+  learning_rate: 0.00152
+  weight_decay: 0.00055
+  trial_number: 9999999
+  batch_size: 256
+  test: true
+  label_smoothing: 0.01
+  number_of_sampled_neighbors: 50
+  only_labels: false

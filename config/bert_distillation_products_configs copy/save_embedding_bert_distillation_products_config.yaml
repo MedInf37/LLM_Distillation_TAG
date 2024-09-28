@@ -1,0 +1,7 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_distillation_products/output_dir_save_bert_distillation_products_embedding
+use_lightning_checkpoint: false
+lm_name: bert-base-uncased
+dataset_name: ogbn-products
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/hyperparameter_tuning_bert_products/model_checkpoints/lr_4.986838925488867e-05
+path_to_save_file: bert_distillation_products_embedding.npy

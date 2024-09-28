@@ -1,0 +1,9 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/classifier_with_standard/classifier_with_standard_gpt2_arxiv
+
+dataset_name: ogbn-arxiv
+different_embedding: /home/yourfirstname.yourlastname/experiment/output_dir_save_standard/output_dir_save_standard_gpt2_embedding/standard_gpt2_embedding.npy
+batch_size: 16
+learning_rate: 0.0001807645466268188
+max_epoch: 30
+custom_name: classifier_with_standard_gpt2_arxiv
+save_model_small: True

@@ -1,0 +1,7 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_save_standard/output_dir_save_standard_gpt2_embedding
+use_standard: true
+use_lightning_checkpoint: false
+lm_name: gpt2
+device: cuda
+path_to_save_file: standard_gpt2_embedding.npy
+full_save_file_path: /home/yourfirstname.yourlastname/experiment/saved_standard_embeddings

@@ -1,0 +1,19 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/train_graph_revgat
+
+use_revgat: true
+
+graph_model:
+  different_embedding: '/home/yourfirstname.yourlastname/experiment/saved_embeddings_dir/best_model_lr_1.2452967354253948e-05.npy'
+  hidden_channels: 256
+  num_heads: 5
+  num_layers: 3
+  dropout: 0.75
+  edge_dropout: 0.3
+  input_dropout: 0.25
+  input_norm: 0.3
+  learning_rate: 0.002
+  weight_decay: 0
+  trial_number: 3
+  batch_size: 0
+  test: false
+  label_smoothing: 0.0

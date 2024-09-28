@@ -1,0 +1,5 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/gpt2_distillation/output_dir_gpt2_experiment
+model_name: gpt2
+path_to_teacher_embedding: /home/yourfirstname.yourlastname/experiment/gpt2_og_embedding_bert_distillation/output_dir_save_gpt2_embedding/better_gpt2_embedding.npy
+min_layers: 1
+max_layers: 9

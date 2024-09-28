@@ -24,6 +24,7 @@ This repository contains code for performing distillation of large language mode
 
 `python experiments.py --method distill_baseline --config config/distill_baseline_config.yaml`
 
+- To generate own config files, the use of `config_generator.py`is recommended.
 
 ## Acknowledgements
 This project utilizes code from the DeepGCNs repository:

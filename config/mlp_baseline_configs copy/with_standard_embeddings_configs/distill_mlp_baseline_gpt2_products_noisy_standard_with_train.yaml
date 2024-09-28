@@ -1,0 +1,11 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/mlp_baselines/noisy_standard/output_dir_mlp_baseline_gpt2_products_noisy_standard_with_train
+
+dataset_name: ogbn-products
+
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/save_noisy_standard_embeddings/gpt2_products_noisy_standard_embedding.npy
+
+batch_size: 16
+learning_rate: 1.2452967354253948e-05
+max_epoch: 2
+save_model_small: false
+path_to_pretrained_classifier: /home/yourfirstname.yourlastname/experiment/classifier_with_standard/classifier_with_standard_gpt2_products/model_checkpoints/classifier_with_standard_gpt2_products.pth

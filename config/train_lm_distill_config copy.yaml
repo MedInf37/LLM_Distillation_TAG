@@ -1,0 +1,8 @@
+# TODO: change
+model_name: distilbert-base-uncased
+path_to_pretrained_classifier: ./saved/classifier_with_standard_bert.pth
+learning_rate: 0.00001245
+short_train: False
+save_model: True
+max_epoch: 2
+custom_name: distill_bert_fine_tuning

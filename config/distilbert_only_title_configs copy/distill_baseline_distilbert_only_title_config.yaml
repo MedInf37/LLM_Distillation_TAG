@@ -1,0 +1,22 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/distilbert_only_title/output_dir_baseline_distilbert_only_title
+path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/distilbert_only_title/output_dir_save_distilbert_only_title_embedding/distilbert_only_title_embedding.npy
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/distilbert_only_title/output_dir_distill_embedding_distilbert_only_title
+
+dataset_name: ogbn-arxiv
+
+graph_model:
+    hidden_channels: 256
+    num_layers: 2
+    num_heads: 8
+    dropout: 0.33
+    edge_dropout: 0.48
+    input_dropout: 0.35
+    input_norm: False
+    different_embedding: None
+    learning_rate: 0.00152
+    weight_decay: 0.00055
+    trial_number: 9999999
+    batch_size: 256
+    test: true
+    label_smoothing: 0.01
+    number_of_sampled_neighbors: 463

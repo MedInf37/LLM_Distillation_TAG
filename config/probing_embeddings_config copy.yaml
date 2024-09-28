@@ -1,0 +1,4 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_probing
+lm_name: bert-base-uncased
+path_to_model: /Users/yourfirstnameyourlastname/Desktop/output_dir_tune/model_checkpoints_test/lr_1.2452967354253948e-05
+path_to_model_server: /home/yourfirstname.yourlastname/experiment/output_dir_tune/model_checkpoints_test/lr_1.2452967354253948e-05

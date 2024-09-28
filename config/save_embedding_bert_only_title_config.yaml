@@ -1,0 +1,6 @@
+absolute_path: /home/yourfirstname.yourlastname/experiment/bert_only_title/output_dir_save_bert_only_labels_embedding
+use_lightning_checkpoint: false
+lm_name: bert-base-uncased
+device: cuda
+path_to_model: /home/yourfirstname.yourlastname/experiment/bert_only_title/hyperparameter_tuning_bert_only_title/model_checkpoints/lr_2.1902537717539548e-06
+path_to_save_file: bert_only_title_embedding.npy

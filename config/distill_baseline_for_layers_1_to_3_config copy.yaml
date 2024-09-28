@@ -1,0 +1,22 @@
+# path_to_embeddings: /home/yourfirstname.yourlastname/experiment/output_dir_distill_embedding
+# path_to_original_embedding: /home/yourfirstname.yourlastname/experiment/saved_embeddings_dir/best_model_lr_1.2452967354253948e-05.npy
+
+absolute_path: /home/yourfirstname.yourlastname/experiment/output_dir_baseline_for_layers_1_to_3
+path_to_embeddings: /home/yourfirstname.yourlastname/experiment/output_dir_distill_embeddings_for_layers_1_to_3
+
+graph_model:
+  hidden_channels: 256
+  num_layers: 2
+  num_heads: 8
+  dropout: 0.33
+  edge_dropout: 0.48
+  input_dropout: 0.35
+  input_norm: False
+  different_embedding: None
+  learning_rate: 0.00152
+  weight_decay: 0.00055
+  trial_number: 9999999
+  batch_size: 256
+  test: true
+  label_smoothing: 0.01
+  number_of_sampled_neighbors: 463

@@ -1,0 +1,8 @@
+# got 0.7138
+path_to_pretrained_classifier: './saved/classifier_with_standard_bert.pth'
+dropout_rate: 0.1
+learning_rate: 0.00005
+short_train: False
+save_model: True
+max_epoch: 10
+custom_name: '10_eps_test'
